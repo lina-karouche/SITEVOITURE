@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(255, 105, 180, 0.5); /* Ombre rose */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: rgb(255, 63, 130);
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.btn-login {
+    background: rgb(255, 63, 130);
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 40px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: #f9f9f9;
+}
+
+.contenu {
+    max-width: 50%;
+}
+
+.contenu h1 {
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.contenu h1 span {
+    color: rgb(255, 63, 130);
+}
+
+.contenu p {
+    margin: 20px 0;
+    color: #666666;
+}
+
+.btn-buy {
+    background: rgb(255, 63, 130);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.car-image img {
+    max-width: 80%;
+    height: auto;
+}
+
+.vehicles {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.vehicles h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    color: #333;
+}
+
+.vehicles h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color:  rgb(255, 63, 130);
+    margin: 10px auto 0;
+}
+
+.vehicles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.vehicle {
+    background: #ffbdd1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.vehicle img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.vehicle h3 {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.vehicle p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.vehicle .btn-buy {
+    background: rgb(251, 122, 160);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
